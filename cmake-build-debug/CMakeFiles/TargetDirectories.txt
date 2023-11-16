@@ -1,5 +1,5 @@
-C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug/CMakeFiles/EjerciciosFlujo.dir
-C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug/CMakeFiles/Flujo_archivos.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug/CMakeFiles/Ejercicio1.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug/CMakeFiles/Ejercicio2.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug/CMakeFiles/Ejercicio5.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
