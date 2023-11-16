@@ -1,10 +1,6 @@
 # ninja log v5
-4	306	7218375235807904	CMakeFiles/EjerciciosFlujo.dir/main.cpp.obj	3719015bb0985e6
-307	404	7218375236852423	EjerciciosFlujo.exe	cec05c9b0244b03f
-1	387	7218378209598305	CMakeFiles/Flujo_archivos.dir/FlujoArchivo.cpp.obj	8ef0498597534943
-388	493	7218378210488448	Flujo_archivos.exe	ec1ea2f74bd30997
-1	356	7218381784797546	build.ninja	3004bfccd38a0f6c
-4	486	7218381792502482	CMakeFiles/EjerciciosFlujo.dir/main.cpp.obj	3719015bb0985e6
-486	569	7218381793291417	EjerciciosFlujo.exe	cec05c9b0244b03f
 3	285	7218382562479975	CMakeFiles/EjerciciosFlujo.dir/main.cpp.obj	3719015bb0985e6
 285	374	7218382563315971	EjerciciosFlujo.exe	cec05c9b0244b03f
+1	387	7218378209598305	CMakeFiles/Flujo_archivos.dir/FlujoArchivo.cpp.obj	8ef0498597534943
+388	493	7218378210488448	Flujo_archivos.exe	ec1ea2f74bd30997
+1	356	7218385957248626	build.ninja	3004bfccd38a0f6c

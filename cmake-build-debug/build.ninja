@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo
 
 build cmake_object_order_depends_target_EjerciciosFlujo: phony || CMakeFiles/EjerciciosFlujo.dir
 
-build CMakeFiles/EjerciciosFlujo.dir/main.cpp.obj: CXX_COMPILER__EjerciciosFlujo_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/main.cpp || cmake_object_order_depends_target_EjerciciosFlujo
-  DEP_FILE = CMakeFiles\EjerciciosFlujo.dir\main.cpp.obj.d
+build CMakeFiles/EjerciciosFlujo.dir/Ejercicio1.cpp.obj: CXX_COMPILER__EjerciciosFlujo_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/Ejercicio1.cpp || cmake_object_order_depends_target_EjerciciosFlujo
+  DEP_FILE = CMakeFiles\EjerciciosFlujo.dir\Ejercicio1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\EjerciciosFlujo.dir
   OBJECT_FILE_DIR = CMakeFiles\EjerciciosFlujo.dir
@@ -63,7 +63,7 @@ build CMakeFiles/EjerciciosFlujo.dir/main.cpp.obj: CXX_COMPILER__EjerciciosFlujo
 #############################################
 # Link the executable EjerciciosFlujo.exe
 
-build EjerciciosFlujo.exe: CXX_EXECUTABLE_LINKER__EjerciciosFlujo_Debug CMakeFiles/EjerciciosFlujo.dir/main.cpp.obj
+build EjerciciosFlujo.exe: CXX_EXECUTABLE_LINKER__EjerciciosFlujo_Debug CMakeFiles/EjerciciosFlujo.dir/Ejercicio1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EjerciciosFlujo.dir
