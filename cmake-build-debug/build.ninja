@@ -82,8 +82,8 @@ build EjerciciosFlujo.exe: CXX_EXECUTABLE_LINKER__EjerciciosFlujo_Debug CMakeFil
 
 build cmake_object_order_depends_target_Flujo_archivos: phony || CMakeFiles/Flujo_archivos.dir
 
-build CMakeFiles/Flujo_archivos.dir/FlujoArchivo.cpp.obj: CXX_COMPILER__Flujo_archivos_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/FlujoArchivo.cpp || cmake_object_order_depends_target_Flujo_archivos
-  DEP_FILE = CMakeFiles\Flujo_archivos.dir\FlujoArchivo.cpp.obj.d
+build CMakeFiles/Flujo_archivos.dir/Ejercicio2.cpp.obj: CXX_COMPILER__Flujo_archivos_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/Ejercicio2.cpp || cmake_object_order_depends_target_Flujo_archivos
+  DEP_FILE = CMakeFiles\Flujo_archivos.dir\Ejercicio2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Flujo_archivos.dir
   OBJECT_FILE_DIR = CMakeFiles\Flujo_archivos.dir
@@ -96,7 +96,7 @@ build CMakeFiles/Flujo_archivos.dir/FlujoArchivo.cpp.obj: CXX_COMPILER__Flujo_ar
 #############################################
 # Link the executable Flujo_archivos.exe
 
-build Flujo_archivos.exe: CXX_EXECUTABLE_LINKER__Flujo_archivos_Debug CMakeFiles/Flujo_archivos.dir/FlujoArchivo.cpp.obj
+build Flujo_archivos.exe: CXX_EXECUTABLE_LINKER__Flujo_archivos_Debug CMakeFiles/Flujo_archivos.dir/Ejercicio2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Flujo_archivos.dir
@@ -105,6 +105,39 @@ build Flujo_archivos.exe: CXX_EXECUTABLE_LINKER__Flujo_archivos_Debug CMakeFiles
   TARGET_FILE = Flujo_archivos.exe
   TARGET_IMPLIB = libFlujo_archivos.dll.a
   TARGET_PDB = Flujo_archivos.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio5
+
+
+#############################################
+# Order-only phony target for Ejercicio5
+
+build cmake_object_order_depends_target_Ejercicio5: phony || CMakeFiles/Ejercicio5.dir
+
+build CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj: CXX_COMPILER__Ejercicio5_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/Ejercicio5.cpp || cmake_object_order_depends_target_Ejercicio5
+  DEP_FILE = CMakeFiles\Ejercicio5.dir\Ejercicio5.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio5.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio5
+
+
+#############################################
+# Link the executable Ejercicio5.exe
+
+build Ejercicio5.exe: CXX_EXECUTABLE_LINKER__Ejercicio5_Debug CMakeFiles/Ejercicio5.dir/Ejercicio5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio5.exe
+  TARGET_IMPLIB = libEjercicio5.dll.a
+  TARGET_PDB = Ejercicio5.exe.dbg
 
 
 #############################################
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Ejercicio5: phony Ejercicio5.exe
+
 build EjerciciosFlujo: phony EjerciciosFlujo.exe
 
 build Flujo_archivos: phony Flujo_archivos.exe
@@ -144,7 +179,7 @@ build Flujo_archivos: phony Flujo_archivos.exe
 #############################################
 # Folder: C:/Users/krave/OneDrive/Documentos/GitHub/EjerciciosFlujo/cmake-build-debug
 
-build all: phony EjerciciosFlujo.exe Flujo_archivos.exe
+build all: phony EjerciciosFlujo.exe Flujo_archivos.exe Ejercicio5.exe
 
 # =============================================================================
 # Built-in targets
