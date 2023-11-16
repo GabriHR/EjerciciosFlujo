@@ -3,6 +3,6 @@ project(EjerciciosFlujo)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(EjerciciosFlujo main.cpp)
-add_executable(Flujo_archivos FlujoArchivo.cpp)
-
+add_executable(Ejercicio1 Ejercicio1.cpp)
+add_executable(Ejercicio2 Ejercicio2.cpp)
+add_executable(Ejercicio5 Ejercicio5.cpp)

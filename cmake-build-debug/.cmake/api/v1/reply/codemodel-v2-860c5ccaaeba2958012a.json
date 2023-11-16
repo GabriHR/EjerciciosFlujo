@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -40,16 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "EjerciciosFlujo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EjerciciosFlujo-Debug-5de1f2d093366cf1f062.json",
-					"name" : "EjerciciosFlujo",
+					"id" : "Ejercicio1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio1-Debug-c54fd46b71d8e4f484b3.json",
+					"name" : "Ejercicio1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Flujo_archivos::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Flujo_archivos-Debug-7d709fc056381f1604ba.json",
-					"name" : "Flujo_archivos",
+					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio2-Debug-ef00aa154a0ebc75f862.json",
+					"name" : "Ejercicio2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio5-Debug-7d56cf4258d3540c02d3.json",
+					"name" : "Ejercicio5",
 					"projectIndex" : 0
 				}
 			]
